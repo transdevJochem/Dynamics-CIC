@@ -1,0 +1,24 @@
+{
+  "name": "dynamics-cic",
+  "version": "1.0.0",
+  "description": "Dynamics CIC Integration",
+  "main": "iban.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/transdevJochem/Dynamics-CIC.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/transdevJochem/Dynamics-CIC/issues"
+  },
+  "homepage": "https://github.com/transdevJochem/Dynamics-CIC#readme"
+}
