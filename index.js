@@ -3,7 +3,7 @@ var request = require('request');
 
 const app = express()
 const port = 8080;
-var DynamicsWebApiURL = "https://forms-api.transdevtest.com/api/dynamics/phonecall";
+var DynamicsWebApiURL = "https://forms-api.transdevtest.com/api/dynamics/phonecall"; //hosted on ecs
 var DynamicsEnvURL = "https://tumms-dev.crm4.dynamics.com/main.aspx?appid=4c2bf6e2-79dc-ea11-a813-000d3a6545ef&forceUCI=1&pagetype=entityrecord&etn=incident&id=";
 app.get('/call', async(req, res) => {
   var CustomerPhone = req.query.CustomerPhone;
